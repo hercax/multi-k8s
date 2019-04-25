@@ -13,7 +13,7 @@ spec:
         component: worker
     spec:
       containers:
-        - name: api
+        - name: worker
           image: hercax/multi-worker
           env:
             - name: REDIS_HOST
