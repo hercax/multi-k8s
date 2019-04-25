@@ -6,7 +6,7 @@ docker push hercax/multi-cient:latest
 docker push hercax/multi-server:latest
 docker push hercax/multi-worker:latest
 
-docker push hercax/multi-cient:$SHA
+docker push hercax/multi-client:$SHA
 docker push hercax/multi-server:$SHA
 docker push hercax/multi-worker:$SHA
 
