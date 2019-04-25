@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: client
-          image: hercax/multi-client:v3
+          image: hercax/multi-client
           ports:
             - containerPort: 3000
