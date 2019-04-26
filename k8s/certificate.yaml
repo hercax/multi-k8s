@@ -7,7 +7,7 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: multi-k8s-hercax.net
+  commonName: multi-k8s.hercax.net
   dnsNames:
     - multi-k8s.hercax.net
   acme:
