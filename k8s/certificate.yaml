@@ -14,5 +14,5 @@ spec:
     config:
       - http01: 
           ingressClass: nginx
-          domains:
-            - k8s-multi.hercax.net
+        domains:
+          - k8s-multi.hercax.net
