@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - k8s-multi.hercax.net
-      secretName: k8s-multi-hercax-net
+        - multi-k8s.hercax.net
+      secretName: multi-k8s-hercax-net
   rules:
-    - host: k8s-multi.hercax.net
+    - host: multi-k8s.hercax.net
       http:
         paths:
           - path: /api/?(.*)
